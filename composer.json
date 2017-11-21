@@ -1,4 +1,5 @@
 {
+    "name":"hano/composer",
     "require": {
         "monolog/monolog": "1.2.*"
     },
