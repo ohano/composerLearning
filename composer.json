@@ -1,0 +1,22 @@
+{
+    "name": "hano/tp51-swoole",
+    "description": "thinkphp v51 with swoole",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jie",
+            "email": "ohano666@gmail.com"
+        }
+    ],
+    "autoload": {
+        "Hano\\": "src/"
+    },
+    "minimum-stability": "dev"
+}
