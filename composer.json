@@ -16,7 +16,9 @@
         }
     ],
     "autoload": {
-        "Hano\\": "src/"
+        "psr-4": {
+            "Hano\\": "src"
+        }
     },
     "minimum-stability": "dev"
 }
