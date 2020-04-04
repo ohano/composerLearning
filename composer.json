@@ -3,7 +3,8 @@
     "description": "thinkphp v51 with swoole",
     "type": "library",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "topthink/think-helper": "^3.0.4",
     },
     "require-dev": {
         "php": ">=7.1"
@@ -17,8 +18,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hano\\": "src"
-        }
+            "Hano\\swoole\\": "src"
+        },
+        "files": [
+            "src/config.php",
+            "src/helper.php"
+        ]
     },
     "minimum-stability": "dev"
 }

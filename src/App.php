@@ -2,7 +2,9 @@
 
 namespace Hano;
 
-class App
-{
+use think\App as tpApp;
 
+class App extends tpApp
+{
+    
 }
